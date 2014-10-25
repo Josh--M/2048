@@ -94,6 +94,7 @@ h1.title {
   border-radius: 3px;
   color: white;
   margin-top: 8px;
+  margin-bottom: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
     position: absolute;
@@ -392,58 +393,71 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Radiohead.pablohoney.albumart.jpg/220px-Radiohead.pablohoney.albumart.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);   
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Radiohead.bends.albumart.jpg/220px-Radiohead.bends.albumart.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);   
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Radiohead.okcomputer.albumart.jpg/220px-Radiohead.okcomputer.albumart.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);    }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Radiohead.kida.albumart.jpg/220px-Radiohead.kida.albumart.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);    }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Radiohead.amnesiac.albumart.jpg/220px-Radiohead.amnesiac.albumart.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);   }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/6/63/Radiohead_-_Hail_to_the_Thief_-_album_cover.jpg/220px-Radiohead_-_Hail_to_the_Thief_-_album_cover.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);    }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/6/61/Radiohead_Com_Lag_%28japan%29_CD_cover.png/220px-Radiohead_Com_Lag_%28japan%29_CD_cover.png");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);   
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/2/2e/In_Rainbows_Official_Cover.jpg/220px-In_Rainbows_Official_Cover.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);   
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/2/24/The_king_of_limbs.jpg/220px-The_king_of_limbs.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);   
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Thom_Yorke_-_The_Eraser.jpg/220px-Thom_Yorke_-_The_Eraser.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);   
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: #edc22e;
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Radiohead_the_best_of.jpg/220px-Radiohead_the_best_of.jpg");
+    background-size: 107px;
+    color: rgba(0, 0, 0, 0);   
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
